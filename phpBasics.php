@@ -63,4 +63,19 @@ var_dump($a!==$c);
 var_dump($a<$b);
 var_dump($a<=$b);
 
+$show = "big bang theory";
+$myNum = 4.458428543;
+
+//everything uppercase
+echo strtoupper($show);//BIG BANG THEORY
+//first word uppercase
+echo ucfirst($show);//Big bang theory
+//every word uppercase
+echo ucwords($show);//Big Bang Theory
+//format decimal placement
+echo "<br/>" . number_format($myNum, 2);
+//random number
+echo "<br/>" . mt_rand(0,10);
+echo "<br/>" . round($myNum, 3);
+
 ?>

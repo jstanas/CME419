@@ -1,0 +1,36 @@
+*{
+    margin:8px;
+
+}
+
+form {
+    background-color: white;
+    border: 1px solid black;
+    padding: 1rem 0.5rem;
+    margin-top:20px;
+}
+label {
+    display: inline-block;
+    width: 6rem;
+    text-align: right;
+    vertical-align: top;
+}
+textarea,
+input:not(:last-child) {
+    margin-bottom: 0.5rem;
+}
+input:last-child {
+    position: relative;
+    left: 6.4rem;
+}
+
+.list{
+    float:right;
+    position:relative;
+    right:200px;
+    bottom:100px;
+}
+
+.box{
+    width:40%;
+}
