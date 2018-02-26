@@ -43,10 +43,10 @@ $y=8;
     </tr>
     <tr>
         <td>Increment of X</td>
-        <td><?php echo $x+1 ?></td>
+        <td><?php echo ++$x ?></td>
     </tr>
     <tr>
         <td>Decrement of Y</td>
-        <td><?php echo $y-1 ?></td>
+        <td><?php echo --$y ?></td>
     </tr>
 </table>
